@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>My Landing Page</title>
-  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+  <link rel="icon" type="image/x-icon" href="images/my_profile_photo-modified.png" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,7 +13,6 @@
 
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/e41b0deb72.js" crossorigin="anonymous"></script>
-  <link rel="icon" type="image/x-icon" href="images/my_profile_photo-modified.png" />
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -23,33 +22,74 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mx-4">
+        <li class="nav-item mx-4">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
         <li class="nav-item active mx-4">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item mx-4">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item mx-4">
-          <a class="nav-link" href="#">Contact Me</a>
+          <a class="nav-link" href="#contact">Contact Me</a>
         </li>
       </ul>
       <span class="navbar-text">
       </span>
     </div>
   </nav>
-  <div class="container">
-    <div class="row col-8">
+  <div class="container my-4">
+    <div id="about" class="row col-8">
       <div>
         <h1 class="banner-container-item">Hi, I'm Kyle</h1>
         <p class="banner-container-item">Full stack web developer looking to make a difference.</p>
         <p class="banner-container-item">I'm currently based in Yokohama, honing my skills and expanding my knowledge base.</p>
       </div>
     </div>
-    <h3>Check out my work</h3>
   </div>
-  <div class="row">
-    <div class="d-flex justify-content-around pb-4">
-      <div class="card text-center card-style" style="width: 18rem;">
+  <div id="projects" class="row py-4">
+    <h3 class="d-flex justify-content-center py-4">Check out my work</h3>
+      <div class="row mx-auto col-lg-8 col-sm-12 card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/gearshare.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-main">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-auto col-lg-8 col-sm-12 card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/gearshare.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-main">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-auto col-lg-8 col-sm-12 card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/storylab.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-main">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">GrocerEase</h5>
@@ -62,7 +102,7 @@
         <div class="card-body">
           <h5 class="card-title">GearShare</h5>
           <p class="card-text">Want to start a new hobby but don't have the gear? We got you covered.</p>
-          <a href="#" class="btn btn-primary">Start renting</a>
+          <a href="https://gearshare-knich872-bcc37dc3c7bc.herokuapp.com/" target="_blank" class="btn btn-primary">Start renting</a>
         </div>
       </div>
       <div class="card text-center" style="width: 18rem;">
@@ -70,14 +110,13 @@
         <div class="card-body">
           <h5 class="card-title">StoryLab</h5>
           <p class="card-text">Turn simple ideas into entertaining scripts. Grow your Youtube channel with us.</p>
-          <a href="#" class="btn btn-primary">Create a script</a>
+          <a href="https://storylab-9967be43fa8a.herokuapp.com/" target="_blank" class="btn btn-primary">Create a script</a>
         </div>
-      </div>
-    </div>
+      </div> -->
   </div>
-  <div class="footer">
+  <div id="contact" class="footer py-4">
     <div class="footer-container">
-        <a href="https://www.linkedin.com/in/kyle-nichols-08592628/" target="_blank">
+        <a href="https://www.linkedin.com/in/kyle-robert-nichols" target="_blank">
           <i class="fa-brands fa-linkedin fa-3x"></i>
         </a>
         <a href="https://github.com/knich872" target="_blank">
@@ -86,6 +125,9 @@
         <a href="https://www.facebook.com/kyle.nichols.988">
           <i class="fa-brands fa-facebook fa-3x"></i>
         </a>
+    </div>
+    <div class="row">
+      <p>kyle.r.nichols@gmail.com</p>
     </div>
     <p class="copyright">©Copyright 2023</p>
   </div>
