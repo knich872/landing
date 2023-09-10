@@ -4,24 +4,25 @@
   height: 400px;
 }
 
-.card h1 {
-  margin: 0 auto;
-  padding-top: 30px;
-  text-align: center;
-  font-size: 3rem;
+.card-title {
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px lightgrey;
+  color: white;
 }
 
 .card-main {
   display: block !important;
   height: 100%;
   width: 100%;
-  color: red;
 }
 
-.card-container-item {
-  height: 300px;
-  width: 250px;
-  color: black;
-  text-align: center;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+.card-img-overlay {
+  height: 100%;
+  width: auto;
+}
+
+.img-fluid {
+  height: 100% !important;
+  opacity: 70%;
+  background-color: black;
 }
