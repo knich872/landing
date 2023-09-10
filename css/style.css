@@ -11,6 +11,7 @@
 
 /* Utilities */
 body {
+  background: linear-gradient(to bottom, #2a7f8a, white, white, white);
   margin: 0;
   font-family: Open Sans;
 }
