@@ -4,7 +4,8 @@
   height: 600px;
   border-bottom: solid 5px darkblue;
   border-radius: 5px;
-  /* color: red; */
+  /* color: red;
+  font-size: 4rem; */
 }
 
 .card-title {
