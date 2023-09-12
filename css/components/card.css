@@ -1,9 +1,10 @@
 .card {
   box-shadow: 3px 3px 30px grey;
   font-weight: bold;
-  height: 400px;
+  height: 600px;
   border-bottom: solid 5px darkblue;
   border-radius: 5px;
+  /* color: red; */
 }
 
 .card-title {
